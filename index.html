@@ -4,23 +4,21 @@
 		<meta charset="utf-8">
 		<title>Mistakevin's Githubbub</title>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/css/bootstrap-theme.min.css" type="text/css" />
+		<script type="text/javascript" async>
+			[
+			  'https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js',
+			  'https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js',
+			  'https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.2.1/backbone-min.js',
+			  'https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js',
+			  './Posts.js'
+			].forEach(function(src) {
+			  var script = document.createElement('script');
+			  script.src = src;
+			  script.async = false;
+			  document.head.appendChild(script);
+			})
+		</script>
 	</head>
 	<body>
-		<script type="text/javascript">
-			Backbone.PostModel = new Backbone.Model.extend({});
-			Backbone.PostCollection = new Backbone.Collection.extend({
-				url: "https://raw.githubusercontent.com/mistakevin/mistakevin.github.io/master/posts.json"
-			})
-			var posts = new Backbone.PostCollection();
-			posts.fetch({
-				success: function(collection) {
-					console.log(collection);
-				}
-			});
-		</script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.2.1/backbone-min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js"></script>
 	</body>
 </html>
