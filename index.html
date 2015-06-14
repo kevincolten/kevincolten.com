@@ -1,16 +1,17 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
 		<title>Mistakevin's Githubbub</title>
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/css/bootstrap-theme.min.css" type="text/css" />
-		<script type="text/javascript" async>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" type="text/css" />
+		<script type="text/javascript">
 			[
 			  'https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js',
 			  'https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js',
 			  'https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.2.1/backbone-min.js',
-			  'https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js',
-			  './Posts.js'
+			  'https://cdnjs.cloudflare.com/ajax/libs/backbone.layoutmanager/0.9.7/backbone.layoutmanager.min.js',
+			  'https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.2/marked.min.js',
+			  './app.js'
 			].forEach(function(src) {
 			  var script = document.createElement('script');
 			  script.src = src;
@@ -20,5 +21,26 @@
 		</script>
 	</head>
 	<body>
+		<div id="container">
+		</div>
+		<script id="main-layout" type="layout">
+		  <section id="content"></section>
+		</script>
+		<script id="posts-list-template" type="template">
+			<div id="posts"></div>
+		</script>
+		<script id="post-item-template" type="template">
+			<div class="post">
+				<a href="#" data-action="view-post-detail">
+					<h3><%= description.replace('@post ', '') %></h3>
+				<a/>
+				<div id="post-<%= id %>"></div>
+			</div>
+		</script>
+		<script id="post-detail-template" type="template">
+			<div class="post-description">
+				<span><%= marked(files[Object.keys(files)[0]].content) %></span>
+			</div>
+		</script>
 	</body>
 </html>

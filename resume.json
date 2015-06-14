@@ -1,0 +1,82 @@
+{
+  "basics": {
+    "name": "Kevin Colten",
+    "label": "Programmer",
+    "picture": "",
+    "email": "kevincolten@gmail.com",
+    "phone": "(409) 728-5155",
+    "website": "http://kevincolten.com",
+    "summary": "A life-learner and new technology nerd, I work hard at the things I love: programming, teaching, and learning.",
+    "location": {
+      "address": "",
+      "postalCode": "TX",
+      "city": "Austin",
+      "countryCode": "US",
+      "region": "Texas"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "mistakevin",
+        "url": "http://github.com/mistakevin"
+      },
+      {
+        "network": "Twitter",
+        "username": "mistakevin",
+        "url": "http://twitter.com/mistakevin"
+      }
+    ]
+  },
+  "work": [{
+    "company": "Continuum Analytics",
+    "position": "Software Engineer",
+    "website": "http://continuum.io",
+    "startDate": "2015-06-08",
+    "summary": "Contributor to Bokeh, an open-source python driven graph generator.",
+    "highlights": [
+      "Sharpened Python skills",
+      "Worked on open-source Python packages",
+      "Fast paced client-specific projects"
+    ]
+  }],
+  "volunteer": [],
+  "education": [{
+    "institution": "App Academy",
+    "area": "Software Development",
+    "studyType": "",
+    "startDate": "2013-07-01",
+    "endDate": "2013-10-01",
+    "gpa": "",
+    "courses": [
+      "Ruby on Rails",
+      "Backbone.js"
+    ]
+  }],
+  "awards": [],
+  "publications": [],
+  "skills": [{
+    "name": "Web Development",
+    "level": "Master",
+    "keywords": [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "Ruby",
+      "PHP",
+      "Python",
+      "SQL",
+      "Backbone",
+      "Rails",
+      "Laravel"
+    ]
+  }],
+  "languages": [{
+    "language": "English",
+    "fluency": "Native speaker"
+  }],
+  "interests": [{
+    "name": "World Travel",
+    "keywords": []
+  }],
+  "references": []
+}
