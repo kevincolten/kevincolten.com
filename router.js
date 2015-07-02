@@ -1,38 +1,47 @@
-Backbone.Layout.configure({
-  // Set the prefix to where your templates live on the server, but keep in
-  // mind that this prefix needs to match what your production paths will be.
-  // Typically those are relative.  So we'll add the leading `/` in `fetch`.
-  prefix: "templates/",
+$(function(){
+    var Router = Backbone.Router.extend({
+        routes: {
+            '': 'profileController',
+            '/': 'profileController',
+            'posts': 'postsController'
+        },
 
-  // This method will check for prebuilt templates first and fall back to
-  // loading in via AJAX.
-  fetchTemplate: function(path) {
-    // Check for a global JST object.  When you build your templates for
-    // production, ensure they are all attached here.
-    var JST = window.JST || {};
+        profileController: function()
+        {
+            var main = new Backbone.Layout({
+                template: _.template('<section id="content"></section>'),
 
-    // If the path exists in the object, use it instead of fetching remotely.
-    if (JST[path]) {
-      return JST[path];
-    }
+                views: {
+                    "#content": new Backbone.ProfileView()
+                }
+            });
+            $('body').html(main.$el);
+            main.render();
+        },
 
-    // If it does not exist in the JST object, mark this function as
-    // asynchronous.
-    var done = this.async();
+        postsController: function()
+        {
+            var gists = new Backbone.GistsCollection();
+            gists.fetch({
+                success: function() {
+                    var posts = new Backbone.GistsCollection(gists.filter(function (gist) {
+                        return gist.get('description').indexOf('@post') !== -1;
+                    }));
+                    var main = new Backbone.Layout({
+                        template: _.template('<section id="content"></section>'),
 
-    // Fetch via jQuery's GET.  The third argument specifies the dataType.
-    $.get(path, function(contents) {
-      // Assuming you're using underscore templates, the compile step here is
-      // `_.template`.
-      done(_.template(contents));
-    }, "text");
-  }
+                        views: {
+                            "#content": new Backbone.PostsListView({
+                                collection: posts
+                            })
+                        }
+                    });
+                    $('body').html(main.$el);
+                    main.render();
+                }
+            });
+        }
+    });
+    new Router();
+    Backbone.history.start({pushState: true})
 });
-
-new Backbone.Router.extend({
-    routes: {
-        'posts': PostsController()
-    }
-});
-
-Backbone.history.start({pushState: true})

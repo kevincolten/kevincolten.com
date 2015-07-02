@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>VST Homepage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/css/materialize.min.css" media="screen,projection" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+  </head>
+  <body>
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo">VST</a>
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="routes.html"><i class="fa fa-globe left"></i>Routes</a></li>
+            <li><a href="submit.html"><i class="fa fa-sign-out fa-rotate-270 left"></i>Submit</a></li>
+            <li><a href="run.html"><i class="fa fa-refresh fa-spin left"></i>Run</a></li>
+            <li><a href="results.html"><i class="fa fa-line-chart left"></i>Results</a></li>
+          </ul>
+          <ul class="side-nav" id="mobile-demo">
+            <li><a href="routes.html"><i class="fa fa-globe left"></i>Routes</a></li>
+            <li><a href="submit.html"><i class="fa fa-sign-out fa-rotate-270 left"></i>Submit</a></li>
+            <li><a href="run.html"><i class="fa fa-refresh fa-spin left"></i>Run</a></li>
+            <li><a href="results.html"><i class="fa fa-line-chart left"></i>Results</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="container">
+      <table class="striped">
+        <thead>
+          <tr>
+            <td colspan="5"><center><h4>Route</h4></center></td>
+          </tr>
+          <tr>
+              <th data-field="id">Location</th>
+              <th data-field="name">Environment</th>
+              <th data-field="price">Level of Aggregation</th>
+              <th data-field="price">Stationary/ Moving</th>
+              <th data-field="price">Duration (Hours)</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Cincinnati, Ohio, US</td>
+            <td>Truck (land)</td>
+            <td>Pallet</td>
+            <td>Stationary</td>
+            <td>48</td>
+          </tr>
+          <tr>
+            <td>Charleston, South Carolina, US</td>
+            <td>Seatainer (land)</td>
+            <td>Pallet</td>
+            <td>Stationary</td>
+            <td>168</td>
+          </tr>
+          <tr>
+            <td>Ocean</td>
+            <td>Seatainer (Ocean)</td>
+            <td>Pallet</td>
+            <td>Stationary</td>
+            <td>268</td>
+          </tr>
+          <tr>
+            <td>Rio de Janiero, Rio de Janiero, BR</td>
+            <td>Warehouse/ DC</td>
+            <td>Pallet</td>
+            <td>Stationary</td>
+            <td>720</td>
+          </tr>
+          <tr>
+            <td>Rio de Janiero, Rio de Janiero, BR</td>
+            <td>Stage storage</td>
+            <td>Case</td>
+            <td>Stationary</td>
+            <td>336</td>
+          </tr>
+          <tr>
+            <td>Rio de Janiero, Rio de Janiero, BR</td>
+            <td>Home</td>
+            <td>Product</td>
+            <td>Stationary</td>
+            <td>1440</td>
+          </tr>
+        </tbody>
+      </table>
+      <table class="striped">
+        <thead>
+          <tr>
+            <td colspan="5"><center><h4>Scenario</h4></center></td>
+          </tr>
+          <tr>
+              <th data-field="id">Name</th>
+              <th data-field="name">Start Date</th>
+              <th data-field="price">End Date</th>
+              <th data-field="price">Stride (days)</th>
+              <th data-field="price">Replicants</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>annual</td>
+            <td>Jan 1</td>
+            <td>Dec 31</td>
+            <td>31</td>
+            <td>100</td>
+          </tr>
+        </tbody>
+      </table>
+      <br><br>
+      <div class="row">
+        <div class="col s12 m12">
+          <div class="card-panel">
+            <span>
+              <h5>Job Status:</h5>
+              Location weather models
+              <ul>
+                <li>Cincinatti, Ohio, US - Cached - <span class="green-text accent-3-text">Ready</span></li>
+                <li>Charleston, SC, US - Cached - <span class="green-text accent-3-text">Ready</span></li>
+                <li>Ocean - <span class="amber-text">Unknown Status</span></li>
+                <li>Rio de Janeiro, Rio de Janeiro, BR - Cached - <span class="green-text accent-3-text">Ready</span></li>
+                <li>Rio de Janeiro, Rio de Janeiro, BR - Cached - <span class="green-text accent-3-text">Ready</span></li>
+                <li>Rio de Janeiro, Rio de Janeiro, BR - Cached - <span class="green-text accent-3-text">Ready</span></li>
+              </ul>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/js/materialize.js"></script>
+    <script type="text/javascript">
+      $(".button-collapse").sideNav();
+    </script>
+    </script>
+  </body>
+</html>

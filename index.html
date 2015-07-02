@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>Mistakevin's Githubbub</title>
+		<title>Mistakevin's Github</title>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/css/materialize.min.css">
 		<script type="text/javascript">
 			[
@@ -14,14 +14,17 @@
 			  'https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.2/marked.min.js',
 			  'https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/js/materialize.min.js',
 
+			  './config.js',
+
 			  // Models/Collections
-			  './models.js',
+			  './models/GistModel.js',
 
 			  // Views
-			  './views.js',
-
-			  // Controller
-			  './controllers.js',
+			  './views/PostDetailView.js',
+			  './views/PostItemView.js',
+			  './views/PostsListView.js',
+			  './views/ProfileView.js',
+			  './views/ResumeView.js',
 
 			  // Router
 			  './router.js'
@@ -34,7 +37,5 @@
 		</script>
 	</head>
 	<body>
-		<div id="container">
-		</div>
 	</body>
 </html>

@@ -27,18 +27,33 @@
       }
     ]
   },
-  "work": [{
-    "company": "Continuum Analytics",
-    "position": "Software Engineer",
-    "website": "http://continuum.io",
-    "startDate": "2015-06-08",
-    "summary": "Contributor to Bokeh, an open-source python driven graph generator.",
-    "highlights": [
-      "Sharpened Python skills",
-      "Worked on open-source Python packages",
-      "Fast paced client-specific projects"
-    ]
-  }],
+  "work": [
+    {
+      "company": "Continuum Analytics",
+      "position": "Software Engineer",
+      "website": "http://continuum.io",
+      "startDate": "2015-06-08",
+      "summary": "Contributor to Bokeh, an open-source python driven graph generator.",
+      "highlights": [
+        "Sharpened Python skills",
+        "Worked on open-source Python packages",
+        "Fast paced client-specific projects"
+      ]
+    },
+    {
+      "company": "Generation Ready",
+      "position": "Lead Software Engineer + Architect",
+      "website": "http://generationready.com",
+      "startDate": "2013-11-01",
+      "endDate": "2015-06-05",
+      "summary": "Contributor to Bokeh, an open-source python driven graph generator.",
+      "highlights": [
+        "Sharpened Python skills",
+        "Worked on open-source Python packages",
+        "Fast paced client-specific projects"
+      ]
+    }
+  ],
   "volunteer": [],
   "education": [{
     "institution": "App Academy",
@@ -67,7 +82,10 @@
       "SQL",
       "Backbone",
       "Rails",
-      "Laravel"
+      "Laravel",
+      "Foundation",
+      "Bootstrap",
+      "Materialize"
     ]
   }],
   "languages": [{

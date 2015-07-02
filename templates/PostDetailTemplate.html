@@ -1,0 +1,4 @@
+<div>
+  <span class="card-title grey-text text-darken-4"><%= post.get('description').replace("@post ", "") %></span>
+  <p><%= marked(post.get('files')[Object.keys(post.get('files'))[0]].content) %></p>
+</div>

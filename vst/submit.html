@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>VST Homepage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/css/materialize.min.css" media="screen,projection" />
+    <link rel="stylesheet" href="http://cdn.pydata.org/bokeh/release/bokeh-0.9.0.min.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+  </head>
+  <body>
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo">VST</a>
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="routes.html"><i class="fa fa-globe left"></i>Routes</a></li>
+            <li><a href="submit.html"><i class="fa fa-sign-out fa-rotate-270 left"></i>Submit</a></li>
+            <li><a href="run.html"><i class="fa fa-refresh fa-spin left"></i>Run</a></li>
+            <li><a href="results.html"><i class="fa fa-line-chart left"></i>Results</a></li>
+          </ul>
+          <ul class="side-nav" id="mobile-demo">
+            <li><a href="routes.html"><i class="fa fa-globe left"></i>Routes</a></li>
+            <li><a href="submit.html"><i class="fa fa-sign-out fa-rotate-270 left"></i>Submit</a></li>
+            <li><a href="run.html"><i class="fa fa-refresh fa-spin left"></i>Run</a></li>
+            <li><a href="results.html"><i class="fa fa-line-chart left"></i>Results</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <div class="card">
+            <div class="card-content blue-grey-text">
+              <span class="card-title blue-grey-text">Location #1: Cincinnati, Ohio, US</span>
+              <i class="right fa-3x fa fa-truck circle"></i>
+              <p>
+                Environment: Truck (land) <br>
+                Level of Aggregation: Pallet <br>
+                Status: Stationary <br>
+                Duration(hours): 48 <br>
+                <div class="row">
+                  <div class="col s6">
+                    <label>Model type:</label>
+                    <select class="browser-default">
+                      <option value="" selected>Simple</option>
+                    </select>
+                  </div>
+                </div>
+                <table class="hoverable">
+                  <thead>
+                    <tr>
+                      <th data-field="id">Descriptor</th>
+                      <th data-field="name">Cases/ Pallet</th>
+                      <th data-field="price">Time Constant (hr)</th>
+                      <th> </th>
+                    </tr>
+                  </thead>
+
+                  <tbody>
+                    <tr>
+                      <td>
+                        <div class="input-field">
+                          <input type="text" value="corner">
+                        </div>
+                      </td>
+                      <td>
+                        <div class="input-field">
+                          <input type="number" value="4">
+                        </div>
+                      </td>
+                      <td>
+                        <div class="input-field">
+                          <input type="number" value="2">
+                        </div>
+                      </td>
+                      <td>
+                        <a class="waves-effect waves-teal btn-flat">X</a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="input-field">
+                          <input type="text" value="face2">
+                        </div>
+                      </td>
+                      <td>
+                        <div class="input-field">
+                          <input type="number" value="12">
+                        </div>
+                      </td>
+                      <td>
+                        <div class="input-field">
+                          <input type="number" value="4">
+                        </div>
+                      </td>
+                      <td>
+                        <a class="waves-effect waves-teal btn-flat">X</a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="input-field">
+                          <input type="text" value="face1">
+                        </div>
+                      </td>
+                      <td>
+                        <div class="input-field">
+                          <input type="number" value="9">
+                        </div>
+                      </td>
+                      <td>
+                        <div class="input-field">
+                          <input type="number" value="6">
+                        </div>
+                      </td>
+                      <td>
+                        <a class="waves-effect waves-teal btn-flat">X</a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="input-field">
+                          <input type="text" value="face0">
+                        </div>
+                      </td>
+                      <td>
+                        <div class="input-field">
+                          <input type="number" value="2">
+                        </div>
+                      </td>
+                      <td>
+                        <div class="input-field">
+                          <input type="number" value="12">
+                        </div>
+                      </td>
+                      <td>
+                        <a class="waves-effect waves-teal btn-flat">X</a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="input-field">
+                          <input type="text">
+                        </div>
+                      </td>
+                      <td>
+                        <div class="input-field">
+                          <input type="number">
+                        </div>
+                      </td>
+                      <td>
+                        <div class="input-field">
+                          <input type="number">
+                        </div>
+                      </td>
+                      <td>
+
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="row">
+                  <div class="col s6">
+                    <label>Weather:</label>
+                    <select class="browser-default">
+                      <option value="" selected>Ambient</option>
+                    </select>
+                  </div>
+                </div>
+                <table>
+                  <thead>
+                    <tr>
+                        <th data-field="id">Station name</th>
+                        <th data-field="name">Distance (mi)</th>
+                        <th data-field="price">Data valid</th>
+                    </tr>
+                  </thead>
+
+                  <tbody>
+                    <tr>
+                      <td>CINCINNATI MUNI LUN</td>
+                      <td>4.6</td>
+                      <td>1928-10-28 to 2012-12-12</td>
+                    </tr>
+                    <tr>
+                      <td>CINCINNATI WSO CITY</td>
+                      <td>5.4</td>
+                      <td>1893-01-01 to 1930-01-01</td>
+                    </tr>
+                    <tr>
+                      <td>CINCINNATI/GREATER</td>
+                      <td>14.3</td>
+                      <td>1947-03-15 to 2012-12-12</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </p>
+            </div>
+            <div class="card-action">
+              <a class="waves-effect waves-light btn white-text"><i class="fa fa-floppy-o left"></i>Save</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <div class="card">
+            <div class="card-content blue-grey-text">
+              <span class="card-title blue-grey-text">Location #2: Charleston, South Carolina, US</span>
+              <i class="right fa-3x fa fa-truck circle"></i>
+              <p>
+                Environment: Seatainer (land) <br>
+                Level of Aggregation: Pallet <br>
+                Status: Stationary <br>
+                Duration(hours): 168 <br>
+                <div class="row">
+                  <div class="col s6">
+                    <label>Model type:</label>
+                    <select class="browser-default">
+                      <option value="" selected>Simple</option>
+                    </select>
+                  </div>
+                </div>
+                <table class="hoverable">
+                  <thead>
+                    <tr>
+                      <th data-field="id">Descriptor</th>
+                      <th data-field="name">Cases/ Pallet</th>
+                      <th data-field="price">Time Constant (hr)</th>
+                      <th> </th>
+                    </tr>
+                  </thead>
+
+                  <tbody>
+                    <tr>
+                      <td>
+                        <div class="input-field">
+                          <input type="text" value="corner">
+                        </div>
+                      </td>
+                      <td>
+                        <div class="input-field">
+                          <input type="number" value="4">
+                        </div>
+                      </td>
+                      <td>
+                        <div class="input-field">
+                          <input type="number" value="2">
+                        </div>
+                      </td>
+                      <td>
+                        <a class="waves-effect waves-teal btn-flat">X</a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="input-field">
+                          <input type="text" value="face2">
+                        </div>
+                      </td>
+                      <td>
+                        <div class="input-field">
+                          <input type="number" value="12">
+                        </div>
+                      </td>
+                      <td>
+                        <div class="input-field">
+                          <input type="number" value="4">
+                        </div>
+                      </td>
+                      <td>
+                        <a class="waves-effect waves-teal btn-flat">X</a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="input-field">
+                          <input type="text" value="face1">
+                        </div>
+                      </td>
+                      <td>
+                        <div class="input-field">
+                          <input type="number" value="9">
+                        </div>
+                      </td>
+                      <td>
+                        <div class="input-field">
+                          <input type="number" value="6">
+                        </div>
+                      </td>
+                      <td>
+                        <a class="waves-effect waves-teal btn-flat">X</a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="input-field">
+                          <input type="text" value="face0">
+                        </div>
+                      </td>
+                      <td>
+                        <div class="input-field">
+                          <input type="number" value="2">
+                        </div>
+                      </td>
+                      <td>
+                        <div class="input-field">
+                          <input type="number" value="12">
+                        </div>
+                      </td>
+                      <td>
+                        <a class="waves-effect waves-teal btn-flat">X</a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="input-field">
+                          <input type="text">
+                        </div>
+                      </td>
+                      <td>
+                        <div class="input-field">
+                          <input type="number">
+                        </div>
+                      </td>
+                      <td>
+                        <div class="input-field">
+                          <input type="number">
+                        </div>
+                      </td>
+                      <td>
+
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="row">
+                  <div class="col s6">
+                    <label>Weather:</label>
+                    <select class="browser-default">
+                      <option value="" selected>Ambient</option>
+                    </select>
+                  </div>
+                </div>
+                <table>
+                  <thead>
+                    <tr>
+                        <th data-field="id">Station name</th>
+                        <th data-field="name">Distance (mi)</th>
+                        <th data-field="price">Data valid</th>
+                    </tr>
+                  </thead>
+
+                  <tbody>
+                    <tr>
+                      <td>CINCINNATI MUNI LUN</td>
+                      <td>4.6</td>
+                      <td>1928-10-28 to 2012-12-12</td>
+                    </tr>
+                    <tr>
+                      <td>CINCINNATI WSO CITY</td>
+                      <td>5.4</td>
+                      <td>1893-01-01 to 1930-01-01</td>
+                    </tr>
+                    <tr>
+                      <td>CINCINNATI/GREATER</td>
+                      <td>14.3</td>
+                      <td>1947-03-15 to 2012-12-12</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </p>
+            </div>
+            <div class="card-action">
+              <a class="waves-effect waves-light btn white-text"><i class="fa fa-floppy-o left"></i>Save</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    // <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/js/materialize.js"></script>
+    <script type="text/javascript">
+      $(".button-collapse").sideNav();
+    </script>
+  </body>
+</html>
