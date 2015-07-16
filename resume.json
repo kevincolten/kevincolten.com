@@ -33,7 +33,7 @@
       "position": "Software Engineer",
       "website": "http://continuum.io",
       "startDate": "2015-06-08",
-      "summary": "Contributor to Bokeh, an open-source python driven graph generator.",
+      "summary": "Bokeh contributor, an open-source python driven graph generator. Implemented and designed client-specific projects and solutions.",
       "highlights": [
         "Sharpened Python skills",
         "Worked on open-source Python packages",
@@ -46,11 +46,11 @@
       "website": "http://generationready.com",
       "startDate": "2013-11-01",
       "endDate": "2015-06-05",
-      "summary": "Contributor to Bokeh, an open-source python driven graph generator.",
+      "summary": "Designed, built, and maintained in-house internet software. Headed small team of web developers and quality assurance technicians.",
       "highlights": [
-        "Sharpened Python skills",
-        "Worked on open-source Python packages",
-        "Fast paced client-specific projects"
+        "Flourished in a fast-paced, agile environment",
+        "Developed deep PHP and Javascript skills",
+        "Learned and implemented new technologies often"
       ]
     }
   ],
@@ -85,7 +85,12 @@
       "Laravel",
       "Foundation",
       "Bootstrap",
-      "Materialize"
+      "React",
+      "CircleCI",
+      "Jenkins",
+      "Amazon Web Services",
+      "Git",
+      "GitHub"
     ]
   }],
   "languages": [{
