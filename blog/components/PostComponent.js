@@ -8,7 +8,7 @@ module.exports = React.createBackboneClass({
       <div className="container">
         <div className="row">
             <div className="twelve columns">
-                <h3>{this.props.model.get('description')}</h3>
+              <h3>{this.props.model.get('description')}</h3>
             </div>
         </div>
         <div className="row">

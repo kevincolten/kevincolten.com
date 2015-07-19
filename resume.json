@@ -69,37 +69,42 @@
   }],
   "awards": [],
   "publications": [],
-  "skills": [{
-    "name": "Web Development",
-    "level": "Master",
-    "keywords": [
-      "HTML",
-      "CSS",
-      "Javascript",
-      "Ruby",
-      "PHP",
-      "Python",
-      "SQL",
-      "Backbone",
-      "Rails",
-      "Laravel",
-      "Foundation",
-      "Bootstrap",
-      "React",
-      "CircleCI",
-      "Jenkins",
-      "Amazon Web Services",
-      "Git",
-      "GitHub"
-    ]
-  }],
-  "languages": [{
-    "language": "English",
-    "fluency": "Native speaker"
-  }],
-  "interests": [{
-    "name": "World Travel",
-    "keywords": []
-  }],
-  "references": []
+  "skills": [
+    {
+      "name": "Languages",
+      "keywords":
+      [
+        "Javascript",
+        "Ruby",
+        "PHP",
+        "Python",
+        "SQL"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Backbone",
+        "Rails",
+        "Laravel",
+        "Foundation",
+        "Bootstrap",
+        "React",
+        "Material Design"
+      ]
+    },
+    {
+      "name": "Technologies",
+      "keywords": [
+        "Continous Integration",
+        "Automated Deployment",
+        "Automated Testing",
+        "Amazon Web Services",
+        "Git/GitHub",
+        "Grunt/Gulp"
+      ]
+    }
+  ]
 }
