@@ -6,6 +6,8 @@
 	url = https://github.com/mistakevin/gistblog.git
 [submodule "gistblog"]
 	branch = styled
+	path = gistblog
+	url = https://github.com/mistakevin/gistblog.git
 [submodule "asteroids"]
 	path = asteroids
 	url = https://github.com/mistakevin/asteroids.git
