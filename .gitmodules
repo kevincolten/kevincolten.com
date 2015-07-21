@@ -1,0 +1,3 @@
+[submodule "reactoids"]
+	path = reactoids
+	url = git@github.com:mistakevin/reactoids.git
