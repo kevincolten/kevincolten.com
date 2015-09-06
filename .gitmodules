@@ -17,3 +17,6 @@
 [submodule "towers"]
 	path = towers
 	url = https://gist.github.com/8c8adbbe5f00b5f51f90.git
+[submodule "tic"]
+	path = tic
+	url = https://gist.github.com/60782473278ae4349ef7.git
