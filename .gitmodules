@@ -20,3 +20,6 @@
 [submodule "tic"]
 	path = tic
 	url = https://gist.github.com/60782473278ae4349ef7.git
+[submodule "wedding"]
+	path = wedding
+	url = https://gist.github.com/c29c26de813a19426f69.git
