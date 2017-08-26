@@ -1,38 +1,57 @@
 {
   "basics": {
     "name": "Kevin Colten",
-    "label": "Programmer",
-    "picture": "https://raw.githubusercontent.com/mistakevin/mistakevin.github.io/master/image.jpg",
+    "label": "CTO, Web Developer, Teacher",
+    "picture": "https://en.gravatar.com/userimage/1840530/2057c8b60dfe9bbd1ec9de85ed410229.jpg?size=200",
     "email": "kevincolten@gmail.com",
     "website": "http://kevincolten.com",
     "summary": "A life-learner and new technology nerd, I work hard at the things I love: programming, teaching, and learning.",
+    "phone": "(512) 593-2019",
     "location": {
-      "city": "Austin, TX"
+      "city": "Austin",
+      "region": "Texas"
     },
     "profiles": [
       {
         "network": "Github",
-        "username": "mistakevin",
-        "url": "http://github.com/mistakevin"
+        "username": "kevincolten",
+        "url": "http://github.com/kevincolten"
       },
       {
-        "network": "Twitter",
-        "username": "mistakevin",
-        "url": "http://twitter.com/mistakevin"
+        "network": "LinkedIn",
+        "username": "kevincolten",
+        "url": "https://www.linkedin.com/in/kevincolten/"
       }
     ]
   },
   "work": [
     {
+      "company": "Austin Coding Academy",
+      "position": "Chief Technology Officer / Lead Instructor",
+      "website": "http://austincodingacademy.com",
+      "startDate": "2015-08-01",
+      "summary": "In charge of all things technical, authored curriculums, and taught web development courses to adult learners.",
+      "highlights": [
+        "Responsible for entire company software infrastructure",
+        "Created, maintained, and led interns and contributers on Campus Manager, our custom Learning Managment System",
+        "Authored curriculums on HTML, CSS, JavaScript, Node.js, MongoDB",
+        "Developed workbooks with CI integration for linting",
+        "Maintained web presences for all four locations Austin, San Antonio, Houston, and Dallas",
+        "Built reporting infrastructure that combined data from multiple sources: Payments, CRM, LMR, etc. Ask me about YoSQL!",
+        "Implemented automation for webhooks, status checks, user events, reports, deployments, tests, etc.",
+      ]
+    },
+    {
       "company": "Continuum Analytics",
       "position": "Software Engineer",
       "website": "http://continuum.io",
       "startDate": "2015-06-08",
+      "endDate": "2017-01-01",
       "summary": "Bokeh contributor, an open-source python driven graph generator. Implemented and designed client-specific projects and solutions.",
       "highlights": [
-        "Sharpened Python skills",
-        "Worked on open-source Python packages",
-        "Fast paced client-specific projects"
+        "Worked on https://anaconda.org, a packaging and environment manager repository",
+        "Contributed to open-source packages such as Bokeh (https://bokeh.pydata.org)",
+        "Fast-paced full-stack client-specific projects with mordern web development stacks"
       ]
     },
     {

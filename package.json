@@ -1,0 +1,25 @@
+{
+  "name": "kevincolten.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "resume": "resume"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevincolten/kevincolten.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevincolten/kevincolten.github.io/issues"
+  },
+  "homepage": "https://github.com/kevincolten/kevincolten.github.io#readme",
+  "dependencies": {
+    "jsonresume-theme-paper": "^0.3.5",
+    "jsonresume-theme-stackoverflow": "^1.0.4",
+    "resume-cli": "^0.4.19"
+  }
+}
