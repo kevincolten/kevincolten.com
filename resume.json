@@ -4,7 +4,7 @@
     "label": "CTO, Web Developer, Teacher",
     "picture": "https://en.gravatar.com/userimage/1840530/2057c8b60dfe9bbd1ec9de85ed410229.jpg?size=200",
     "email": "kevincolten@gmail.com",
-    "website": "http://kevincolten.com",
+    "website": "https://kevincolten.com",
     "summary": "A life-learner and new technology nerd, I work hard at the things I love: programming, teaching, and learning.",
     "phone": "(512) 593-2019",
     "location": {
@@ -14,8 +14,13 @@
     "profiles": [
       {
         "network": "Github",
+        "username": "AustinCodingAcademy",
+        "url": "https://github.com/AustinCodingAcademy"
+      },
+      {
+        "network": "Github",
         "username": "kevincolten",
-        "url": "http://github.com/kevincolten"
+        "url": "https://github.com/kevincolten"
       },
       {
         "network": "LinkedIn",
@@ -28,7 +33,7 @@
     {
       "company": "Austin Coding Academy",
       "position": "Chief Technology Officer / Lead Instructor",
-      "website": "http://austincodingacademy.com",
+      "website": "https://austincodingacademy.com",
       "startDate": "2015-08-01",
       "summary": "In charge of all things technical, authored curriculums, and taught web development courses to adult learners.",
       "highlights": [
@@ -37,14 +42,16 @@
         "Authored curriculums on HTML, CSS, JavaScript, Node.js, MongoDB",
         "Developed workbooks with CI integration for linting",
         "Maintained web presences for all four locations Austin, San Antonio, Houston, and Dallas",
-        "Built reporting infrastructure that combined data from multiple sources: Payments, CRM, LMR, etc. Ask me about YoSQL!",
+        "Built reporting infrastructure that combined data from multiple sources: Payments, CRM, LMS, etc. Ask me about YoSQL!",
         "Implemented automation for webhooks, status checks, user events, reports, deployments, tests, etc.",
+        "Implementing/analyzing tracking services such as Google Analytics/Tag Manager, Facebook Pixel, click heatmaps, etc",
+        "SEO Optimization"
       ]
     },
     {
       "company": "Continuum Analytics",
       "position": "Software Engineer",
-      "website": "http://continuum.io",
+      "website": "https://continuum.io",
       "startDate": "2015-06-08",
       "endDate": "2017-01-01",
       "summary": "Bokeh contributor, an open-source python driven graph generator. Implemented and designed client-specific projects and solutions.",
@@ -57,7 +64,7 @@
     {
       "company": "Generation Ready",
       "position": "Lead Software Engineer + Architect",
-      "website": "http://generationready.com",
+      "website": "https://generationready.com",
       "startDate": "2013-11-01",
       "endDate": "2015-06-05",
       "summary": "Designed, built, and maintained in-house internet software. Headed small team of web developers and quality assurance technicians.",
@@ -68,45 +75,88 @@
       ]
     }
   ],
-  "volunteer": [],
-  "education": [{
-    "institution": "App Academy",
-    "area": "Software Development",
-    "studyType": "",
-    "startDate": "2013-07-01",
-    "endDate": "2013-10-01",
-    "gpa": "",
-    "courses": [
-      "Ruby on Rails",
-      "Backbone.js"
-    ]
-  }],
-  "awards": [],
-  "publications": [],
+  "projects": [
+    {
+      "name": "Campus Manager",
+      "description": "Learning Management System and Course Management Tool",
+      "highlights": [
+        "Learning Management System and Course Management Tool",
+        "Creator and current maintainer",
+        "Over 700 Users",
+        "Supports webhooks with Zapier",
+        "Powerful reporting engine",
+        "Built with MongoDB, Node.js, Express.js, Pssport.js, Backbone.js, and React.js"
+      ],
+      "keywords": [
+        "MongoDB",
+        "Node",
+        "Express",
+        "Passport",
+        "Backbone",
+        "React"
+      ],
+      "url": "https://github.com/AustinCodingAcademy/campus-manager",
+      "roles": [
+        "Creator",
+        "Maintainer"
+      ],
+      "entity": "Austin Coding Academy",
+      "type": "Web Application"
+    },
+    {
+      "name": "AdFree.Life",
+      "highlights": [
+        "Adblocking as a Sevice",
+        "Sets up a preconfigured Pi-Hole on a dedicated VPS",
+        "Uses cron jobs to generate trials",
+        "Hit #11 on Hacker News! (https://news.ycombinator.com/item?id=14910683)",
+        "Registration currently disabled while licensing is figured out"
+      ],
+      "url": "https://adfree.life"
+    },
+    {
+      "name": "YoSQL",
+      "highlights": [
+        "Converts NoSQL databases and JSON collections into SQL tables",
+        "Creator and current maintainer",
+        "Integrates with Zapier for Webhook functionality",
+        "Save and share queries",
+        "API to integrate with any SPA frontend"
+      ],
+      "url": "#"
+    }
+  ],
   "skills": [
     {
       "name": "Languages",
       "keywords":
       [
-        "Javascript",
+        "JavaScript/Node.js",
         "Ruby",
         "PHP",
         "Python",
-        "SQL"
+        "SQL",
+        "NoSQL",
+        "Bash",
+        "Linux",
+        "C#"
       ]
     },
     {
       "name": "Web Development",
       "keywords": [
-        "HTML",
-        "CSS",
-        "Backbone",
+        "HTML/CSS",
+        "JavaScript/jQuery",
+        "Express/Node.js",
+        "Backbone/React",
         "Rails",
         "Laravel",
-        "Foundation",
-        "Bootstrap",
-        "React",
-        "Material Design"
+        "Bootstrap/Foundation/Material",
+        "MongoDB",
+        "MySQL/Postgres/Sqlite",
+        "Authorization/Authentication",
+        "Responsive/Mobile Developemnt",
+        "Bokeh/Bokeh Server"
       ]
     },
     {
@@ -115,9 +165,13 @@
         "Continous Integration",
         "Automated Deployment",
         "Automated Testing",
-        "Amazon Web Services",
+        "AWS/Heroku/DigitalOcean",
+        "Heroku/Build Packs",
         "Git/GitHub",
-        "Grunt/Gulp"
+        "Grunt/Gulp/WebPack",
+        "REST APIs",
+        "Automated SSL Certificates",
+        "Data Visualization"
       ]
     }
   ]
