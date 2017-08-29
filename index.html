@@ -3,7 +3,7 @@
 	<head>
 	
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui, initial-scale=1">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
 	
 	<title>Kevin Colten</title>
 	
@@ -191,6 +191,12 @@ h4 span:first-child {
 	</head>
 	<body>
 		<canvas id="canvas" style="position: fixed;"></canvas>
+		<script src="https://cdn.rawgit.com/yoannmoinet/nipplejs/master/dist/nipplejs.min.js"></script>
+		<script src="https://rawgit.com/kevincolten/asteroids/master/asteroids.js"></script>
+		<script>
+			const game = new Asteroids(10, 'canvas');
+			game.start();
+		</script>
 	<header id="header">
 		<div class="container">
 			<div class="row">
@@ -235,10 +241,7 @@ h4 span:first-child {
 			<h3>About</h3>
 		</aside>
 		<div class="col-sm-9">
-			<p>
-				A life-learner and new technology nerd, I work hard at the things I
-				love: programming, teaching, and learning.
-			</p>
+			<p>A life-learner and new technology nerd, I work hard at the things I love: programming, teaching, and learning.</p>
 		</div>
 	</section>
 	<section id="profiles" class="row">
@@ -306,12 +309,12 @@ h4 span:first-child {
 				<h4>Highlights</h4>
 				<ul class="highlights">
 					<li class="bullet">Responsible for entire company software infrastructure</li>
-					<li class="bullet">Created, maintained, and led interns and contributers on Campus Manager, our custom Learning Managment System</li>
+					<li class="bullet">Created, maintained, and led interns and contributors on Campus Manager, our custom Learning Managment System</li>
 					<li class="bullet">Authored curriculums on HTML, CSS, JavaScript, Node.js, MongoDB</li>
 					<li class="bullet">Developed workbooks with CI integration for linting</li>
 					<li class="bullet">Maintained web presences for all four locations Austin, San Antonio, Houston, and Dallas</li>
 					<li class="bullet">Built reporting infrastructure that combined data from multiple sources: Payments, CRM, LMS, etc. Ask me about YoSQL!</li>
-					<li class="bullet">Implemented automation for webhooks, status checks, user events, reports, deployments, tests, etc.</li>
+					<li class="bullet">Implemented automation for web hooks, status checks, user events, reports, deployments, tests, etc.</li>
 					<li class="bullet">Implementing/analyzing tracking services such as Google Analytics/Tag Manager, Facebook Pixel, click heatmaps, etc</li>
 					<li class="bullet">SEO Optimization</li>
 				</ul>
@@ -386,9 +389,9 @@ h4 span:first-child {
 					<li>Learning Management System and Course Management Tool</li>
 					<li>Creator and current maintainer</li>
 					<li>Over 700 Users</li>
-					<li>Supports webhooks with Zapier</li>
+					<li>Supports web hooks with Zapier</li>
 					<li>Powerful reporting engine</li>
-					<li>Built with MongoDB, Node.js, Express.js, Pssport.js, Backbone.js, and React.js</li>
+					<li>Built with MongoDB, Node.js, Express.js, Passport.js, Backbone.js, and React.js</li>
 				</ul>
             </div>
             <div class="col-sm-12">
@@ -399,8 +402,8 @@ h4 span:first-child {
                     <span></span>
                 </div>
 				<ul class="highlights">
-					<li>Adblocking as a Sevice</li>
-					<li>Sets up a preconfigured Pi-Hole on a dedicated VPS</li>
+					<li>Adblocking as a Service</li>
+					<li>Sets up a pre-configured Pi-Hole on a dedicated VPS</li>
 					<li>Uses cron jobs to generate trials</li>
 					<li>Hit #11 on Hacker News! (https://news.ycombinator.com/item?id=14910683)</li>
 					<li>Registration currently disabled while licensing is figured out</li>
@@ -416,7 +419,7 @@ h4 span:first-child {
 				<ul class="highlights">
 					<li>Converts NoSQL databases and JSON collections into SQL tables</li>
 					<li>Creator and current maintainer</li>
-					<li>Integrates with Zapier for Webhook functionality</li>
+					<li>Integrates with Zapier for web hook functionality</li>
 					<li>Save and share queries</li>
 					<li>API to integrate with any SPA frontend</li>
 				</ul>
@@ -463,7 +466,7 @@ h4 span:first-child {
 					<li>MongoDB</li>
 					<li>MySQL/Postgres/Sqlite</li>
 					<li>Authorization/Authentication</li>
-					<li>Responsive/Mobile Developemnt</li>
+					<li>Responsive/Mobile Development</li>
 					<li>Bokeh/Bokeh Server</li>
 				</ul>
 			</div>
@@ -492,12 +495,6 @@ h4 span:first-child {
 	
 
 	</div>
-	<div id="control" style="position: fixed; bottom: 100px; right: 100px"></div>
-	<script src="https://cdn.rawgit.com/yoannmoinet/nipplejs/master/dist/nipplejs.min.js"></script>
-	<script src="https://rawgit.com/kevincolten/asteroids/master/asteroids.js"></script>
-	<script>
-		const game = new Asteroids(10, 'canvas');
-		game.start();
-	</script>
+	
 	</body>
 </html>
