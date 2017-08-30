@@ -13,6 +13,11 @@
     },
     "profiles": [
       {
+        "network": "PDF Resume",
+        "username": "Kevin Colten",
+        "url": "http://kevincolten.com/kevincolten.pdf"
+      },
+      {
         "network": "Github",
         "username": "AustinCodingAcademy",
         "url": "https://github.com/AustinCodingAcademy"
@@ -38,7 +43,7 @@
       "summary": "In charge of all things technical, authored curriculums, and taught web development courses to adult learners.",
       "highlights": [
         "Responsible for entire company software infrastructure",
-        "Created, maintained, and led interns and contributors on Campus Manager, our custom Learning Managment System",
+        "Created, maintained, and led interns and contributors on Campus Manager, our custom Learning Management System",
         "Authored curriculums on HTML, CSS, JavaScript, Node.js, MongoDB",
         "Developed workbooks with CI integration for linting",
         "Maintained web presences for all four locations Austin, San Antonio, Houston, and Dallas",
@@ -162,7 +167,7 @@
     {
       "name": "Technologies",
       "keywords": [
-        "Continous Integration",
+        "Continuous Integration",
         "Automated Deployment",
         "Automated Testing",
         "AWS/Heroku/DigitalOcean",

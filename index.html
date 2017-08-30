@@ -190,9 +190,10 @@ h4 span:first-child {
 	
 	</head>
 	<body>
-		<canvas id="canvas" style="position: fixed;"></canvas>
+		<div id="control" style="position: absolute; bottom: 100px; right: 100px"></div>
+		<canvas id="canvas" style="position: absolute;"></canvas>
 		<script src="https://cdn.rawgit.com/yoannmoinet/nipplejs/master/dist/nipplejs.min.js"></script>
-		<script src="https://rawgit.com/kevincolten/asteroids/master/asteroids.js"></script>
+		<script src="https://cdn.rawgit.com/kevincolten/asteroids/master/asteroids.js"></script>
 		<script>
 			const game = new Asteroids(10, 'canvas');
 			game.start();
@@ -252,6 +253,16 @@ h4 span:first-child {
 			<div class="row">
 				<div class="col-sm-6">
 					<strong class="network">
+						PDF Resume
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="http://kevincolten.com/kevincolten.pdf">Kevin Colten</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
 						Github
 					</strong>
 					<div class="username">
@@ -309,7 +320,7 @@ h4 span:first-child {
 				<h4>Highlights</h4>
 				<ul class="highlights">
 					<li class="bullet">Responsible for entire company software infrastructure</li>
-					<li class="bullet">Created, maintained, and led interns and contributors on Campus Manager, our custom Learning Managment System</li>
+					<li class="bullet">Created, maintained, and led interns and contributors on Campus Manager, our custom Learning Management System</li>
 					<li class="bullet">Authored curriculums on HTML, CSS, JavaScript, Node.js, MongoDB</li>
 					<li class="bullet">Developed workbooks with CI integration for linting</li>
 					<li class="bullet">Maintained web presences for all four locations Austin, San Antonio, Houston, and Dallas</li>
@@ -475,7 +486,7 @@ h4 span:first-child {
 					<h4>Technologies</h4>
 				</div>
 				<ul class="keywords">
-					<li>Continous Integration</li>
+					<li>Continuous Integration</li>
 					<li>Automated Deployment</li>
 					<li>Automated Testing</li>
 					<li>AWS/Heroku/DigitalOcean</li>
