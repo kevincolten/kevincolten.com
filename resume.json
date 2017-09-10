@@ -18,12 +18,17 @@
         "url": "http://kevincolten.com/kevincolten.pdf"
       },
       {
-        "network": "Github",
+        "network": "GitHub",
         "username": "AustinCodingAcademy",
         "url": "https://github.com/AustinCodingAcademy"
       },
       {
-        "network": "Github",
+        "network": "GithHub",
+        "username": "kevincolten",
+        "url": "https://github.com/kevincolten"
+      },
+      {
+        "network": "GitLab",
         "username": "kevincolten",
         "url": "https://github.com/kevincolten"
       },
@@ -128,7 +133,7 @@
         "Save and share queries",
         "API to integrate with any SPA frontend"
       ],
-      "url": "#"
+      "url": "https://gitlab.com/kevincolten/yosql"
     }
   ],
   "skills": [
