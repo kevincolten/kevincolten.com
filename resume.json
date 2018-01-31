@@ -23,7 +23,7 @@
         "url": "https://github.com/AustinCodingAcademy"
       },
       {
-        "network": "GithHub",
+        "network": "GitHub",
         "username": "kevincolten",
         "url": "https://github.com/kevincolten"
       },
@@ -44,6 +44,18 @@
     ]
   },
   "work": [
+    {
+      "company": "SkillsEngine",
+      "position": "Senior Software Engineer",
+      "website": "https://skillsengine.com",
+      "startDate": "2017-10-16",
+      "summary": "Develop web service around skill predicting and aligning machine-learning driven service",
+      "highlights": [
+        "Work with modern web stack: React + Redux, Ruby on Rails",
+        "Agile environment and collaborative coding",
+        "Full Stack development, worked on all corners code base, services, and integrations"
+      ]
+    },
     {
       "company": "Austin Coding Academy",
       "position": "Chief Technology Officer / Lead Instructor",
@@ -126,7 +138,7 @@
         "Hit #11 on Hacker News! (https://news.ycombinator.com/item?id=14910683)",
         "Registration currently disabled while licensing is figured out"
       ],
-      "url": "https://adfree.life"
+      "url": "https://ad-free-life.herokuapp.com/"
     },
     {
       "name": "YoSQL",
@@ -137,7 +149,7 @@
         "Save and share queries",
         "API to integrate with any SPA frontend"
       ],
-      "url": "https://gitlab.com/kevincolten/yosql"
+      "url": "https://github.com/kevincolten/yosql"
     }
   ],
   "skills": [
@@ -162,7 +174,7 @@
         "HTML/CSS",
         "JavaScript/jQuery",
         "Express/Node.js",
-        "Backbone/React",
+        "Backbone/React + Redux",
         "Rails",
         "Laravel",
         "Bootstrap/Foundation/Material",
@@ -170,7 +182,9 @@
         "MySQL/Postgres/Sqlite",
         "Authorization/Authentication",
         "Responsive/Mobile Development",
-        "Bokeh/Bokeh Server"
+        "Bokeh/Bokeh Server",
+        "Grunt/Gulp/Webpack",
+        "SASS/LESS/UglifyJS"
       ]
     },
     {
