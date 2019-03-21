@@ -45,18 +45,6 @@
   },
   "work": [
     {
-      "company": "SkillsEngine",
-      "position": "Senior Software Engineer",
-      "website": "https://skillsengine.com",
-      "startDate": "2017-10-16",
-      "summary": "Develop web service around skill predicting and aligning machine-learning driven service",
-      "highlights": [
-        "Work with modern web stack: React + Redux, Ruby on Rails",
-        "Agile environment and collaborative coding",
-        "Full Stack development, worked on all corners of the code base, services, and integrations"
-      ]
-    },
-    {
       "company": "Austin Coding Academy",
       "position": "Chief Technology Officer / Lead Instructor",
       "website": "https://austincodingacademy.com",
@@ -72,6 +60,19 @@
         "Implemented automation for web hooks, status checks, user events, reports, deployments, tests, etc.",
         "Implementing/analyzing tracking services such as Google Analytics/Tag Manager, Facebook Pixel, click heatmaps, etc",
         "SEO Optimization"
+      ]
+    },
+    {
+      "company": "SkillsEngine",
+      "position": "Senior Software Engineer",
+      "website": "https://skillsengine.com",
+      "startDate": "2017-10-16",
+      "endDate": "2019-03-13",
+      "summary": "Develop web service around skill predicting and aligning machine-learning driven service",
+      "highlights": [
+        "Work with modern web stack: React + Redux, Ruby on Rails",
+        "Agile environment and collaborative coding",
+        "Full Stack development, worked on all corners of the code base, services, and integrations"
       ]
     },
     {
