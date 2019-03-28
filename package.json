@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "resume export index.html --format html"
+    "build": "resume export index.html --format html --theme flat_projects"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/kevincolten/kevincolten.github.io#readme",
   "dependencies": {
-    "resume-cli": "github:kevincolten/resume-cli#ed13682",
-    "resume-schema": "github:jsonresume/resume-schema#c9cfa95"
+    "jsonresume-theme-flat_projects": "kevincolten/jsonresume-theme-flat_projects",
+    "resume-cli": "kevincolten/resume-cli",
+    "resume-schema": "jsonresume/resume-schema"
   }
 }
