@@ -18,8 +18,7 @@
   },
   "homepage": "https://github.com/kevincolten/kevincolten.github.io#readme",
   "dependencies": {
-    "jsonresume-theme-flat_projects": "kevincolten/jsonresume-theme-flat_projects",
-    "resume-cli": "kevincolten/resume-cli",
-    "resume-schema": "jsonresume/resume-schema"
+    "jsonresume-theme-flat_projects": "kevincolten/jsonresume-theme-flat_projects#84491e5",
+    "resume-cli": "kevincolten/resume-cli#b05d465"
   }
 }
