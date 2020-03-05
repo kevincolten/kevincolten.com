@@ -632,7 +632,7 @@ jsonresume-theme-flat@^0.3.7:
   dependencies:
     handlebars "^2.0.0-alpha.4"
 
-jsonresume-theme-flat_projects@kevincolten/jsonresume-theme-flat_projects:
+jsonresume-theme-flat_projects@kevincolten/jsonresume-theme-flat_projects#84491e5:
   version "0.3.10"
   resolved "https://codeload.github.com/kevincolten/jsonresume-theme-flat_projects/tar.gz/84491e504c7c2f0f2d3a875d77fc110fd98ac891"
   dependencies:
@@ -1060,7 +1060,7 @@ require-main-filename@^1.0.1:
   resolved "https://registry.yarnpkg.com/require-main-filename/-/require-main-filename-1.0.1.tgz#97f717b69d48784f5f526a6c5aa8ffdda055a4d1"
   integrity sha1-l/cXtp1IeE9fUmpsWqj/3aBVpNE=
 
-resume-cli@kevincolten/resume-cli:
+resume-cli@kevincolten/resume-cli#b05d465:
   version "1.1.2"
   resolved "https://codeload.github.com/kevincolten/resume-cli/tar.gz/b05d4658bdf525b2aa82101eb72027344b849cfd"
   dependencies:
@@ -1090,7 +1090,7 @@ resume-schema@jsonresume/resume-schema:
   version "0.0.16"
   resolved "https://codeload.github.com/jsonresume/resume-schema/tar.gz/3bfe84eaddd08ce1bd754920823202560bc6eec6"
   dependencies:
-    z-schema "~3.18.2"
+    z-schema "~3.19.0"
 
 resume-schema@latest:
   version "0.0.16"

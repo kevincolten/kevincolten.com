@@ -45,12 +45,32 @@
   },
   "work": [
     {
+      "company": "Zollege",
+      "position": "Chief Technology Officer",
+      "website": "https://zollege.com",
+      "startDate": "2019-08-01",
+      "summary": "Managing technical infrastructure of 100+ vocational training schools across the US.",
+      "highlights": [
+        "Setting a vision for how technology will be used in the company.",
+        "Ensuring that the technological resources meet the company's short and long-term needs.",
+        "Outline the goals for research and development.",
+        "Creating timelines for the development and deployment of all technological services.",
+        "Making executive decisions on behalf of the company's technological requirements.",
+        "Acting as a mentor to team members.",
+        "Maintaining a consumer-focused outlook and aiding in the delivering of IT projects to market.",
+        "Managing technology budgets and time frames.",
+        "Staying on top of technology trends and developments.",
+        "Ensuring all technology practices adhere to regulatory standards."
+      ]
+    },
+    {
       "company": "Austin Coding Academy",
-      "position": "Chief Technology Officer / Lead Instructor",
+      "position": "Co-founder + Chief Technology Officer + Senior Software Engineer / Lead Instructor",
       "website": "https://austincodingacademy.com",
       "startDate": "2015-08-01",
       "summary": "In charge of all things technical, authored curriculums, and taught web development courses to adult learners.",
       "highlights": [
+        "Acquired 2019 by Zollege",
         "Responsible for entire company software infrastructure",
         "Created, maintained, and led interns and contributors on Campus Manager, our custom Learning Management System",
         "Authored curriculums on HTML, CSS, JavaScript, Node.js, MongoDB",
