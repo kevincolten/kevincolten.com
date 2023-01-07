@@ -140,35 +140,6 @@
       "type": "Web Application"
     },
     {
-      "name": "CMAsnap",
-      "description": "CMAsnap lets REALTORS produce a branded, accurate CMAs from anywhere, on any device in a fraction of the time it takes using the MLS. Simply enter the subject property address and get a full comp set in under 10 seconds. Choose the most appropriate comps from the list and CMAsnap does the rest.",
-      "highlights": [
-        "Developed and launched CMA software for realtors",
-        "Built application from the ground up",
-        "Integrated into CRM to track sales, support, and marketing",
-        "Maintain Business Intelligence platform to monitor KPIs",
-        "Agile development environment",
-        "Enforce cybersecurity policies",
-        "Research and implement third party software",
-        "Hire and train new technology staff when needed",
-        "Marketing tech, sales ops, and web development"
-      ],
-      "keywords": [
-        "Node",
-        "Express",
-        "Postgres",
-        "GIS",
-        "MLS (RETS/RESO)"
-      ],
-      "url": "https://cmasnap.com",
-      "roles": [
-        "Fractional CTO",
-        "Partner"
-      ],
-      "entity": "CMAsnap",
-      "type": "Web Application"
-    },
-    {
       "name": "Olive Us",
       "description": "The Olive Us App is an alternative solution for matching families with qualified sitters who meet a family's unique needs. Our detailed matching questionnaires for sitters & families are based on more than a decade of experience in operating a full- service nanny placement agency. Our easy to use ‘app' automates the matching, meeting and vetting process.",
       "highlights": [
