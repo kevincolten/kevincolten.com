@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Kevin Colten",
-    "label": "CTO, Web Developer, Teacher",
+    "label": "CTO, Software Developer, Business Intelligence",
     "picture": "https://www.gravatar.com/avatar/41b83a25bac38bb0a759467d4d09820f?s=100",
     "email": "kevincolten@gmail.com",
     "website": "https://kevincolten.com",
-    "summary": "A life-learner and new technology nerd, I work hard at the things I love: programming, teaching, and learning.",
+    "summary": "Specializing in growing companies aiming to become tech-enabled and beyond by terraforming technology departments, installing development skills, management practices, unifying data and configuring business intelligence tools, building internal systems, and hiring the right staff.",
     "phone": "",
     "location": {
       "city": "Austin",
@@ -19,16 +19,6 @@
       },
       {
         "network": "GitHub",
-        "username": "AustinCodingAcademy",
-        "url": "https://github.com/AustinCodingAcademy"
-      },
-      {
-        "network": "GitHub",
-        "username": "kevincolten",
-        "url": "https://github.com/kevincolten"
-      },
-      {
-        "network": "GitLab",
         "username": "kevincolten",
         "url": "https://github.com/kevincolten"
       },
@@ -36,10 +26,6 @@
         "network": "LinkedIn",
         "username": "kevincolten",
         "url": "https://www.linkedin.com/in/kevincolten/"
-      },
-      {
-        "network": "Skype",
-        "username": "kevincolten"
       }
     ]
   },
@@ -65,9 +51,10 @@
     },
     {
       "company": "Austin Coding Academy",
-      "position": "Co-founder + Chief Technology Officer + Senior Software Engineer / Lead Instructor",
+      "position": "Chief Technology Officer + Senior Software Engineer + Lead Instructor",
       "website": "https://austincodingacademy.com",
       "startDate": "2015-08-01",
+      "endDate": "2019-07-30",
       "summary": "In charge of all things technical, authored curriculums, and taught web development courses to adult learners.",
       "highlights": [
         "Acquired 2019 by Zollege",
@@ -124,6 +111,85 @@
   ],
   "projects": [
     {
+      "name": "CMAsnap",
+      "description": "CMAsnap lets REALTORS produce a branded, accurate CMAs from anywhere, on any device in a fraction of the time it takes using the MLS. Simply enter the subject property address and get a full comp set in under 10 seconds. Choose the most appropriate comps from the list and CMAsnap does the rest.",
+      "highlights": [
+        "Developed and launched CMA software for realtors",
+        "Built application from the ground up",
+        "Integrated into CRM to track sales, support, and marketing",
+        "Maintain Business Intelligence platform to monitor KPIs",
+        "Agile development environment",
+        "Enforce cybersecurity policies",
+        "Research and implement third party software",
+        "Hire and train new technology staff when needed",
+        "Marketing tech, sales ops, and web development"
+      ],
+      "keywords": [
+        "Node",
+        "Express",
+        "Postgres",
+        "GIS",
+        "MLS (RETS/RESO)"
+      ],
+      "url": "https://cmasnap.com",
+      "roles": [
+        "Fractional CTO",
+        "Partner"
+      ],
+      "entity": "CMAsnap",
+      "type": "Web Application"
+    },
+    {
+      "name": "CMAsnap",
+      "description": "CMAsnap lets REALTORS produce a branded, accurate CMAs from anywhere, on any device in a fraction of the time it takes using the MLS. Simply enter the subject property address and get a full comp set in under 10 seconds. Choose the most appropriate comps from the list and CMAsnap does the rest.",
+      "highlights": [
+        "Developed and launched CMA software for realtors",
+        "Built application from the ground up",
+        "Integrated into CRM to track sales, support, and marketing",
+        "Maintain Business Intelligence platform to monitor KPIs",
+        "Agile development environment",
+        "Enforce cybersecurity policies",
+        "Research and implement third party software",
+        "Hire and train new technology staff when needed",
+        "Marketing tech, sales ops, and web development"
+      ],
+      "keywords": [
+        "Node",
+        "Express",
+        "Postgres",
+        "GIS",
+        "MLS (RETS/RESO)"
+      ],
+      "url": "https://cmasnap.com",
+      "roles": [
+        "Fractional CTO",
+        "Partner"
+      ],
+      "entity": "CMAsnap",
+      "type": "Web Application"
+    },
+    {
+      "name": "Olive Us",
+      "description": "The Olive Us App is an alternative solution for matching families with qualified sitters who meet a family's unique needs. Our detailed matching questionnaires for sitters & families are based on more than a decade of experience in operating a full- service nanny placement agency. Our easy to use ‘app' automates the matching, meeting and vetting process.",
+      "highlights": [
+        "Premium Sitter Matching App",
+        "Built initial mobile app (NannyTribe)",
+        "React Native + Node.js/Express.js + Postgres",
+        "Beta release on TestFlight",
+        "Custom built matching algorithm",
+        "Project manage outsourced development team",
+        "Integrated app into CRM",
+        "Build data pipelines and BI dashboards"
+      ],
+      "keywords": [],
+      "url": "https://oliveusapp.com",
+      "roles": [
+        "Fractional CTO"
+      ],
+      "entity": "Olive Us",
+      "type": "Mobile Application"
+    },
+    {
       "name": "Campus Manager",
       "description": "Learning Management System and Course Management Tool",
       "highlights": [
@@ -160,7 +226,7 @@
         "Registration currently disabled while licensing is figured out"
       ],
       "keywords": [],
-      "url": "https://ad-free-life.herokuapp.com/",
+      "url": "https://web.archive.org/web/20181128042929/https://www.adfree.life/",
       "roles": ["Owner"],
       "entity": "Startup",
       "type": "SAAS"
@@ -183,52 +249,143 @@
   ],
   "skills": [
     {
-      "name": "Languages",
-      "keywords":
-      [
-        "JavaScript/Node.js",
-        "Ruby",
-        "PHP",
-        "Python",
-        "SQL",
-        "NoSQL",
-        "Bash",
-        "Linux",
-        "C#"
-      ]
-    },
-    {
-      "name": "Web Development",
-      "keywords": [
-        "HTML/CSS",
-        "JavaScript/jQuery",
-        "Express/Node.js",
-        "Backbone/React + Redux",
-        "Rails",
-        "Laravel",
-        "Bootstrap/Foundation/Material",
-        "MongoDB",
-        "MySQL/Postgres/Sqlite",
-        "Authorization/Authentication",
-        "Responsive/Mobile Development",
-        "Bokeh/Bokeh Server",
-        "Grunt/Gulp/Webpack",
-        "SASS/LESS/UglifyJS"
-      ]
-    },
-    {
       "name": "Technologies",
       "keywords": [
-        "Continuous Integration",
-        "Automated Deployment",
-        "Automated Testing",
-        "AWS/Heroku/DigitalOcean",
-        "Heroku/Build Packs",
-        "Git/GitHub",
-        "Grunt/Gulp/WebPack",
-        "REST APIs",
-        "Automated SSL Certificates",
-        "Data Visualization"
+        "JavaScript",
+        "Node.js",
+        "Express.js",
+        "React.js",
+        "React Native",
+        "SQL",
+        "NoSQL",
+        "Snowflake",
+        "Data Visualization",
+        "Metabase",
+        "Business Intelligence",
+        "Executive Dashboards",
+        "AirByte",
+        "Custom ETLs",
+        "DigitalOcean",
+        "AWS",
+        "Heroku",
+        "Dokku",
+        "CMS ",
+        "LMS",
+        "CRM",
+        "HubSpot",
+        "Integrations",
+        "Browser Extensions",
+        "Postman",
+        "REST API",
+        "JSON",
+        "MarTech",
+        "Sales Ops",
+        "Stripe",
+        "MLS (RESO/RETS)",
+        "Agile SAAS",
+        "Engineering Management",
+        "GitHub",
+        "GitHub Actions",
+        "CircleCI",
+        "Ruby/Rails",
+        "Python/Django",
+        "PHP/Laravel",
+        "GIS/GeoJSON",
+        "NLP",
+        "Twilio",
+        "DNS",
+        "Cloudflare",
+        "Matching Algorithms",
+        "Phishing Prevention",
+        "Server Monitoring"
+      ]
+    },
+    {
+      "name": "Product Management",
+      "keywords": [
+        "Manage development team",
+        "Maintain budgets",
+        "Write out descriptive requirements",
+        "Hire new technology role positions",
+        "Train new technology hires",
+        "Manage DNS and productivity software",
+        "Organize product assets"
+      ]
+    },
+    {
+      "name": "Sales Ops",
+      "keywords": [
+        "Build out and maintain CRM",
+        "Automate workflows and movement of data",
+        "Develop integrations",
+        "Map out sales pipelines"
+      ]
+    },
+    {
+      "name": "Marketing Technology",
+      "keywords": [
+        "Install marketing solutions",
+        "Measure engagement and advertising",
+        "Web development"
+      ]
+    },
+    {
+      "name": "Cybersecurity",
+      "keywords": [
+        "Ensure compliance in technical and business architecture",
+        "Enforce authentication and authorization policies",
+        "Treat sensitive data as a liability rather than an asset"
+
+      ]
+    },
+    {
+      "name": "Business Intelligence",
+      "keywords": [
+        "Map ETL pipelines to gather data from different services",
+        "Install and maintain SQL reports and data visualizations",
+        "Monitor KPIs and IT budgets to assess technological performance"
+
+      ]
+    },
+    {
+      "name": "Support Operations",
+      "keywords": [
+        "Install customer support pipelines",
+        "Document and train support staff",
+        "Provide tools needed to support customer troubleshooting"
+
+      ]
+    },
+    {
+      "name": "Technology Vendor Relations",
+      "keywords": [
+        "Research vendor products that align with business needs",
+        "Learn product and read documentation",
+        "Train internal staff if needed",
+        "Interface with vendor support if needed",
+        "Negotiate cost of vendor services if possible"
+
+      ]
+    },
+    {
+      "name": "Qualifications",
+      "keywords": [
+        "Proven experience as a CTO",
+        "8 years working in a technological role",
+        "5 years of engineering managerial experience",
+        "Advanced technological skill set and a demonstrated history with technology",
+        "Board presentations",
+        "Knowledge of technological trends to build strategy",
+        "Understanding of budgets and business-planning",
+        "Ability to conduct technological analyses and research",
+        "Excellent communication skills",
+        "Exceptional team management skills",
+        "Excellent verbal and written communication",
+        "Leadership and organizational abilities",
+        "Strategic thinking",
+        "Problem-solving aptitude",
+        "Ability to delegate efficiently",
+        "Extensive industry knowledge with an eye towards the future"
       ]
     }
   ]
