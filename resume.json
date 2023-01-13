@@ -83,9 +83,9 @@
       ]
     },
     {
-      "company": "Continuum Analytics",
+      "company": "Anaconda",
       "position": "Software Engineer",
-      "website": "https://continuum.io",
+      "website": "https://anaconda.com",
       "startDate": "2015-06-08",
       "endDate": "2017-01-01",
       "summary": "Bokeh contributor, an open-source python driven graph generator. Implemented and designed client-specific projects and solutions.",
