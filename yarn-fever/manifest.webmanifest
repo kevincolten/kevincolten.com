@@ -1,0 +1,16 @@
+{
+  "name": "Yarn Fever",
+  "short_name": "Yarn Fever",
+  "description": "A cozy 3D unravel puzzle — wind every piece of the knitted castle into matching baskets.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#b9e0fb",
+  "theme_color": "#b9e0fb",
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}
