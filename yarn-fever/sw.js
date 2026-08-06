@@ -1,7 +1,7 @@
 const CACHE='yarn-fever-v1';
 const ASSETS=[
   './','./index.html','./game.js','./manifest.webmanifest',
-  './icons/icon-192.png','./icons/icon-512.png','./icons/apple-touch-icon.png',
+  './icons/icon.svg',
   'https://cdnjs.cloudflare.com/ajax/libs/three.js/0.160.1/three.module.min.js'
 ];
 self.addEventListener('install',e=>{

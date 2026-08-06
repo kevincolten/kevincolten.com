@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a8dbfb"/><stop offset="1" stop-color="#dcefff"/>
+    </linearGradient>
+    <radialGradient id="ball" cx="35%" cy="28%" r="78%">
+      <stop offset="0" stop-color="#ffb055"/><stop offset="55%" stop-color="#f68b1f"/><stop offset="1" stop-color="#c9660c"/>
+    </radialGradient>
+    <clipPath id="c"><circle cx="256" cy="272" r="168"/></clipPath>
+  </defs>
+  <rect width="512" height="512" fill="url(#sky)"/>
+  <g stroke="#9a5a12" stroke-width="15" stroke-linecap="round" fill="none" opacity=".95">
+    <path d="M330 200 L410 60"/>
+  </g>
+  <circle cx="410" cy="60" r="17" fill="#e8574f" stroke="#fff" stroke-width="5"/>
+  <circle cx="256" cy="272" r="168" fill="url(#ball)"/>
+  <g clip-path="url(#c)" fill="none" stroke="#c9660c" stroke-width="12" stroke-linecap="round" opacity=".85">
+    <ellipse cx="256" cy="272" rx="188" ry="86" transform="rotate(-32 256 272)"/>
+    <ellipse cx="256" cy="272" rx="188" ry="140" transform="rotate(-32 256 272)"/>
+    <ellipse cx="256" cy="272" rx="188" ry="86" transform="rotate(28 256 272)"/>
+    <ellipse cx="256" cy="272" rx="188" ry="145" transform="rotate(28 256 272)"/>
+    <ellipse cx="256" cy="272" rx="188" ry="70" transform="rotate(84 256 272)"/>
+  </g>
+  <ellipse cx="196" cy="204" rx="52" ry="34" fill="#fff" opacity=".28" transform="rotate(-28 196 204)"/>
+  <path d="M104 350 C60 396 44 430 66 470" fill="none" stroke="#f68b1f" stroke-width="15" stroke-linecap="round"/>
+  <path d="M104 350 C60 396 44 430 66 470" fill="none" stroke="#ffbe72" stroke-width="5" stroke-linecap="round"/>
+</svg>
